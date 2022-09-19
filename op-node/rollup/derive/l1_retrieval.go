@@ -21,7 +21,7 @@ type L1Retrieval struct {
 	datas DataIter
 }
 
-var _ PullStage = (*L1Retrieval)(nil)
+var _ ResetableStage = (*L1Retrieval)(nil)
 
 func NewL1Retrieval(log log.Logger, dataSrc CalldataProvider, prev *L1Traversal) *L1Retrieval {
 	return &L1Retrieval{
