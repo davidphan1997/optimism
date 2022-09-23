@@ -11,7 +11,7 @@ LDFLAGS :=-ldflags "$(LDFLAGSSTRING)"
 all: build
 
 build:
-	CGO_ENABLED=0 go build $(LDFLAGS)
+	go build $(LDFLAGS)
 
 clean:
 	rm edge-proxyd-exporter
