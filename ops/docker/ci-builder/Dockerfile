@@ -26,7 +26,7 @@ RUN source $HOME/.profile && \
 
 FROM ethereum/client-go:alltools-v1.10.21 as geth
 
-FROM python:3.8.13-slim-bullseye
+FROM python:3.10.8-slim-bullseye
 
 ENV GOPATH=/go
 ENV PATH=/usr/local/go/bin:$GOPATH/bin:$PATH
