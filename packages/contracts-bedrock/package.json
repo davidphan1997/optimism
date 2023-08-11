@@ -39,8 +39,8 @@
   },
   "dependencies": {
     "@eth-optimism/core-utils": "^0.10.1",
-    "@openzeppelin/contracts": "4.7.3",
-    "@openzeppelin/contracts-upgradeable": "4.7.3",
+    "@openzeppelin/contracts": "4.9.3",
+    "@openzeppelin/contracts-upgradeable": "4.9.3",
     "ethers": "^5.7.0",
     "hardhat": "^2.9.6"
   },
