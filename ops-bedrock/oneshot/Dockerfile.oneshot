@@ -5,7 +5,7 @@ FROM us-central1-docker.pkg.dev/bedrock-goerli-development/images/op-node:$op_no
 
 FROM ethereumoptimism/op-geth:$op_geth_image as op_geth
 
-FROM alpine:3.16.2
+FROM alpine:3.19.3
 
 ARG network_name
 ARG S6_OVERLAY_VERSION=3.1.0.1
