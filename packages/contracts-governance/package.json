@@ -41,7 +41,7 @@
     "eth-sig-util": "^3.0.1",
     "ethereumjs-util": "^7.1.4",
     "ethers": "^5.7.0",
-    "hardhat": "^2.9.6"
+    "hardhat": "^2.22.6"
   },
   "devDependencies": {
     "@types/mocha": "^9.1.1",
