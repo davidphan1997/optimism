@@ -9,7 +9,7 @@ WORKDIR /app/l2geth
 RUN make geth
 
 # Pull Geth into a second stage deploy alpine container
-FROM alpine:3.15
+FROM alpine:3
 
 RUN apk add --no-cache ca-certificates jq curl
 COPY --from=builder /app/l2geth/build/bin/geth /usr/local/bin/
