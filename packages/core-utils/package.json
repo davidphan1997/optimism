@@ -47,7 +47,7 @@
     "@ethersproject/properties": "^5.7.0",
     "@ethersproject/web": "^5.7.0",
     "bufio": "^1.0.7",
-    "chai": "^4.3.4"
+    "chai": "^4.3.10"
   },
   "devDependencies": {
     "mocha": "^10.0.0"
