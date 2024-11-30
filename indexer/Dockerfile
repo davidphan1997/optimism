@@ -10,7 +10,7 @@ COPY ./indexer/docker.go.work /go/go.work
 WORKDIR /go/indexer
 RUN make
 
-FROM alpine:3.15
+FROM alpine:3
 
 COPY --from=builder /go/indexer/indexer /usr/local/bin
 
