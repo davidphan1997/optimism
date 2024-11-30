@@ -9,7 +9,7 @@ COPY ./teleportr/docker.go.work /go/go.work
 WORKDIR /go/teleportr
 RUN make teleportr teleportr-api
 
-FROM alpine:3.15
+FROM alpine:3.16
 
 RUN apk add --no-cache ca-certificates jq curl
 COPY --from=builder /go/teleportr/teleportr /usr/local/bin/
